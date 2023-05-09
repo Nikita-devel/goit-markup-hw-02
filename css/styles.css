@@ -1,31 +1,33 @@
 :root{
   color:#FFF;
+  --logo-color: #2E2F42;
 }
 
 body {
   color: #434455;
   font-family: 'Roboto', sans-serif;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
-.logo {
-  /* Web */
-width: 44px;
-height: 21px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-/* IRIS */
-color: #4D5AE5;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color, #4d5ae5);
+  text-decoration: none;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.logo-text span {
+  display: none;
+}
+
+.logo-link:hover .logo-text span {
+  display: inline;
 }
