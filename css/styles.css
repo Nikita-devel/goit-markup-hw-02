@@ -1,4 +1,12 @@
+:root{
+  --colorbd: #434455;
+  --font-familybd: 'Roboto', sans-serif;
+  --background-colorbd: #FFF;
+}
+
 body {
-  background-color:whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  color: var(--colorbd);
+  font-family: var(--font-familybd);
+  background-color: var(--colorbd);
+
 }
