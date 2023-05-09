@@ -22,6 +22,8 @@ body {
 
 .logo-text {
   display: inline-block;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
 }
 
 .logo-text span {
