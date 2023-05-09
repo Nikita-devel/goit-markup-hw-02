@@ -1,12 +1,31 @@
 :root{
-  --colorbd: #434455;
-  --font-familybd: 'Roboto', sans-serif;
-  --background-colorbd: #FFF;
+  color:#FFF;
 }
 
 body {
-  color: var(--colorbd);
-  font-family: var(--font-familybd);
-  background-color: var(--colorbd);
+  color: #434455;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFF;
+}
 
+.logo {
+  /* Web */
+width: 44px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* IRIS */
+color: #4D5AE5;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
