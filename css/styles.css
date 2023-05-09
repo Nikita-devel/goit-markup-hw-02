@@ -21,15 +21,13 @@ body {
 }
 
 .logo-text {
+  color:#4d5ae5;
   display: inline-block;
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
 }
 
 .logo-text span {
-  display: none;
+  color: #2E2F42;
 }
 
-.logo-link:hover .logo-text span {
-  display: inline;
-}
