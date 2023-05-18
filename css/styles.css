@@ -14,6 +14,10 @@ body {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 /* Стилі логотипу */
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -29,7 +33,7 @@ body {
   color: #2e2f42;
 }
 
-.logo-text span {
+.logo-text .studio {
   color: #2e2f42;
 }
 
@@ -48,10 +52,6 @@ body {
 }
 
 /* Стилі контактів */
-.address {
-  list-style: none;
-}
-
 .address a {
   font-size: 16px;
   line-height: 1.5;
