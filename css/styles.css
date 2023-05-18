@@ -46,8 +46,12 @@ body {
   color: #2e2f42;
 }
 
-.upper-link:hover,
-.upper-link:focus {
+.upper-link.link {
+  text-decoration: none;
+}
+
+.upper-link.link:hover,
+.upper-link.link:focus {
   color: #404bbf;
 }
 
