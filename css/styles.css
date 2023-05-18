@@ -133,7 +133,7 @@ body {
 }
 
 .about-item {
-  background-color: #FFFFFF;
+  background-color: var(--default-bg);
 }
 
 .hidden-title {
