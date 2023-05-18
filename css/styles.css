@@ -132,6 +132,10 @@ body {
   background-color: var(--button-bg);
 }
 
+.about-item {
+  background-color: #FFFFFF;
+}
+
 .hidden-title {
   font-weight: 500;
   font-size: 20px;
